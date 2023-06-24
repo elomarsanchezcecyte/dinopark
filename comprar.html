@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Compra de entradas Dino Park</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+	<link rel="stylesheet" href="estilos2.css"/>
+</head>
+<body>
+	<h1>Compra de entradas Dino Park</h1>
+	<form action="procesar_compra.php" method="post">
+		<label for="tipo_entrada">Tipo de entrada:</label>
+		<select id="tipo_entrada" name="tipo_entrada">
+			<option value="entrada_general">Entrada general - 25 USD</option>
+			<option value="niños">Niños menores de 12 años - 15 USD</option>
+			<option value="mayores">Mayores de 60 años - 20 USD</option>
+			<option value="discapacidad">Personas con discapacidad - 10 USD</option>
+		</select>
+		<br>
+		<label for="cantidad">Cantidad:</label>
+		<input type="number" id="cantidad" name="cantidad" min="1" max="10">
+		<br>
+		<label for="nombre">Nombre completo:</label>
+		<input type="text" id="nombre" name="nombre" required>
+		<br>
+		<label for="email">Correo electrónico:</label>
+		<input type="email" id="email" name="email" required>
+		<br>
+		<label for="tarjeta">Número de tarjeta:</label>
+		<input type="text" id="tarjeta" name="tarjeta" required>
+		<br>
+		<label for="caducidad">Fecha de caducidad:</label>
+		<input type="month" id="caducidad" name="caducidad" required>
+		<br><br>
+		<input type="submit" value="Comprar entradas">
+	</form>
+</body>
+</html>

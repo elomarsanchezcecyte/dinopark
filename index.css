@@ -1,0 +1,165 @@
+/* Estilos para la navegación */
+nav {
+	background-color: #2c3e50;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+/* Estilos para el logotipo */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Estilos para el header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+/* Estilos para la sección hero */
+.hero {
+	position: relative;
+	height: 700px;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.hero a {
+	background-color: #e67e22;
+	border: none;
+	color: #fff;
+	display: block;
+	font-size: 24px;
+	margin: 0 auto;
+	padding: 15px 30px;
+	position: absolute;
+	bottom: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Estilos para la sección descripción */
+.descripcion {
+	padding: 50px;
+	text-align: center;
+}
+
+.descripcion h2 {
+	font-size: 42px;
+	margin-top: 0;
+}
+
+.descripcion p {
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+/* Estilos para la sección atracciones */
+.atracciones {
+	background-color: #f1c40f;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.atracciones h2 {
+	font-size: 42px;
+	margin-top: 0;
+}
+
+.atracciones ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px 0 0 0;
+	padding: 0;
+}
+
+.atracciones li {
+	flex-basis: 350px;
+	margin: 25px;
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.atracciones img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+}
+
+.atracciones h3 {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.atracciones p {
+	font-size: 18px;
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+
+.atracciones a {
+	background-color: #fff;
+	border: none;
+	color: #2c3e50;
+	display: block;
+	font-size: 24px;
+	margin: 50px auto 0 auto;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Estilos para el footer */
+footer {
+	background-color: #34495e;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.redes-sociales {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 0 0;
+	padding: 0;
+}
+
+.redes-sociales li {
+	margin: 0 10px;
+}
+
+.redes-sociales img {
+	max-width: 100%;
+	height: auto;
+}
